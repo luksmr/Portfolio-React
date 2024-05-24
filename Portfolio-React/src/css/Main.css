@@ -1,0 +1,103 @@
+
+.h1title {
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    text-align: center;
+    transition: color 0.3s;
+    
+}
+
+.h1title:hover {
+  color: #ff9800 
+}
+
+
+
+.descr-Main{
+  display: flex;
+    font-size: 35px;
+    letter-spacing: 0.8px;
+    margin: 0 auto;
+    width: 50%;
+    transition: color 0.3s;
+    font-style: italic;
+    
+}
+
+.descr-Main:hover {
+  color: #ff9800 
+}
+
+.text-center{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  
+}
+
+.img{
+  text-align: center;
+  animation: backDown;
+  margin-top: 40px;
+}
+
+.h4Main {
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    text-align: center;
+    transition: color 0.3s;
+    font-style: italic;
+}
+
+.h4Main:hover {
+  color: #ff9800 
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-row1 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .card-row2 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .card1, .card2, .card3, .card4, .card5, .card6 {
+    margin: 0.9rem; 
+    transition: transform 0.4s, box-shadow 0.3s;
+  }
+
+  .card1:hover, .card2:hover, .card3:hover, .card4:hover, .card5:hover, .card6:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+  }
+
+  .profile-image {
+    transition: transform 0.4s ease; 
+  }
+  
+  .profile-image:hover {
+    transform: scale(1.07); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  
+
+
+
+ 

@@ -1,0 +1,26 @@
+.footer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #3949ab;
+
+}
+
+.icon-container {
+    font-size: 30px;
+}
+
+.icon {
+    margin-right: 15px; 
+  }
+
+
+.copy{
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+}  
